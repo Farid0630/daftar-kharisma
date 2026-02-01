@@ -1,2 +1,14 @@
 *
 !.gitignore
+
+# izinkan folder landing dan isinya
+!landing/
+!landing/**
+
+# (opsional) batasi hanya gambar
+!landing/*.png
+!landing/*.jpg
+!landing/*.jpeg
+!landing/*.webp
+!landing/*.svg
+!landing/*.gif
